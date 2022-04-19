@@ -71,13 +71,14 @@ h4 {
     transform: translate(-50%, -50%);
     font-family: 'Poppins';
     font-weight: 500;
-    font-size: 0;
     transition: all 200ms ease-in;
+    font-size: 1.5rem;
 }
 
 @media (hover: hover) {
     .item .title {
         opacity: 0;
+        font-size: 0;
     }
 }
 
