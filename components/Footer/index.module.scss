@@ -1,0 +1,52 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+    position: relative;
+    padding: 4rem 0 4rem 0;
+}
+
+.footer::before {
+    content: '';
+    display: inline-block;
+    width: 80%;
+    border-bottom: 1px solid #e6e6e6;
+    position: absolute;
+    left: 10%;
+    top: 0;
+}
+
+.ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 2rem 5% 0 5%;
+}
+
+.li {
+    padding: 0.5rem;
+}
+
+.anchor {
+    font-family: 'Poppins', sans-serif;
+}
+
+.credit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 1rem;
+}
+
+.copyright {
+    text-transform: uppercase;
+}
+
+.virketrang {
+    margin-top: 0.5rem;
+    font-size: 0.7rem;
+}

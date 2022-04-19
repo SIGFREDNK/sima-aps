@@ -1,0 +1,21 @@
+.ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav {
+    display: flex;
+}
+
+.anchor {
+    font-weight: 400;
+    margin: 0 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: #0e2137;
+}
+
+@media only screen and (max-width: 1015px) {
+    .nav {
+        display: none;
+    }
+}
