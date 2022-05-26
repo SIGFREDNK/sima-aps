@@ -90,13 +90,13 @@ export default function Hegn() {
                         path="/produkter/hegn/stoejhegn"
                     />
                     <Item
-                        src="/hegn/stakit-1.jpeg"
+                        src="/hegn/stakit-1.jpg"
                         alt="Et billede af et stakit"
                         title="Stakit"
                         path="/produkter/hegn/stakit"
                     />
                     <Item
-                        src="/hegn/plankevaerk-1.jpeg"
+                        src="/hegn/plankevaerk-1.jpg"
                         alt="Et billede af et plankeværk"
                         title="Plankeværk"
                         path="/produkter/hegn/plankevaerk"
