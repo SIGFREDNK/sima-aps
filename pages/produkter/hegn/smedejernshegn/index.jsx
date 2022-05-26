@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 
-import Img from 'components/img';
+import Img from 'components/Img';
 
 import { FaArrowCircleLeft, FaArrowCircleRight } from 'react-icons/fa';
 
