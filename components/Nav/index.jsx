@@ -36,8 +36,8 @@ export default function Nav({ changeState, state }) {
                         anchorStyling={styles.anchor}
                     />
                     <NavItem
-                        path="/produkter/andet"
-                        value="Andet"
+                        path="/erhverv"
+                        value="Erhverv"
                         anchorStyling={styles.anchor}
                     />
                 </ul>

@@ -3,6 +3,8 @@ import styles from './index.module.scss';
 import Image from 'next/image';
 import Actions from 'components/Actions';
 
+import { FaAngleDoubleDown } from 'react-icons/fa';
+
 export default function Stubfraesning() {
     return (
         <Layout title="Stubfræsning">
@@ -12,6 +14,9 @@ export default function Stubfraesning() {
                     layout="fill"
                     alt="Et billede af en der stubfræser"
                 />
+                <div className="arrow">
+                    <FaAngleDoubleDown />
+                </div>
             </div>
             <div className="page">
                 <h2 className="title">Stubfræsning</h2>

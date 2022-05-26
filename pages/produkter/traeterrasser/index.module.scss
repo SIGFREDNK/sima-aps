@@ -10,3 +10,15 @@
 .subtitle {
     font-family: 'Poppins', sans-serif;
 }
+
+.image {
+    img {
+        transform: scale(1.4);
+    }
+}
+
+.zoomed {
+    img {
+        transform: scale(2);
+    }
+}

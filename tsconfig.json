@@ -25,7 +25,8 @@
         "components/Head.jsx",
         "pages/index.jsx",
         "pages/_app.jsx",
-        "components/Head.jsx"
+        "components/Head.jsx",
+        "components/Subpage/index.jsx"
     ],
     "exclude": ["node_modules"]
 }

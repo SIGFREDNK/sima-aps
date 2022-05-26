@@ -2,6 +2,8 @@ import Layout from 'components/Layout';
 import Image from 'next/image';
 import Actions from 'components/Actions';
 
+import { FaAngleDoubleDown } from 'react-icons/fa';
+
 import styles from './index.module.scss';
 
 export default function Diamantboring() {
@@ -9,10 +11,13 @@ export default function Diamantboring() {
         <Layout title="Diamantboring">
             <div className="background">
                 <Image
-                    src="/diamantboring/diamantboring-1.jpeg"
+                    src="/diamantboring/diamantboring-1.jpg"
                     layout="fill"
                     alt="Et billede af diamantboring"
                 />
+                <div className="arrow">
+                    <FaAngleDoubleDown />
+                </div>
             </div>
             <div className="page">
                 <h2 className="title">Diamantboring</h2>
