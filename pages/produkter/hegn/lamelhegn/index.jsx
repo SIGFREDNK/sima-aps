@@ -28,7 +28,7 @@ const Lamelhegn = () => {
     }, [index]);
 
     return (
-        <Layout>
+        <Layout title="Lamelhegn">
             <div className="action-group">
                 <h4>Kontakt os</h4>
                 <Actions />

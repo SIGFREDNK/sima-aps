@@ -28,7 +28,7 @@ const Rionet = () => {
     }, [index]);
 
     return (
-        <Layout>
+        <Layout title="Rionet">
             <div className="action-group">
                 <h4>Kontakt os</h4>
                 <Actions />

@@ -28,7 +28,7 @@ const Panelhegn = () => {
     }, [index]);
 
     return (
-        <Layout>
+        <Layout title="Panelhegn">
             <div className="action-group">
                 <h4>Kontakt os</h4>
                 <Actions />

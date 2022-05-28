@@ -28,7 +28,7 @@ const Komposithegn = () => {
     }, [index]);
 
     return (
-        <Layout>
+        <Layout title="Komposithegn">
             <div className="action-group">
                 <h4>Kontakt os</h4>
                 <Actions />
@@ -46,15 +46,15 @@ const Komposithegn = () => {
                                 alt="Et komposithegn"
                             />
                             <Img
-                                src="/hegn/komposithegn-2.jpg"
+                                src="/hegn/komposithegn-2.jpeg"
                                 alt="Et komposithegn"
                             />
                             <Img
-                                src="/hegn/komposithegn-3.jpg"
+                                src="/hegn/komposithegn-3.jpeg"
                                 alt="Et komposithegn"
                             />
                             <Img
-                                src="/hegn/komposithegn-4.jpg"
+                                src="/hegn/komposithegn-4.jpeg"
                                 alt="Et komposithegn"
                             />
                             <Img

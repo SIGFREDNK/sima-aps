@@ -28,7 +28,7 @@ const Maskinflet = () => {
     }, [index]);
 
     return (
-        <Layout>
+        <Layout title="Maskinflet">
             <div className="action-group">
                 <h4>Kontakt os</h4>
                 <Actions />

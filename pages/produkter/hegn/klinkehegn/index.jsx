@@ -28,7 +28,7 @@ const Klinkehegn = () => {
     }, [index]);
 
     return (
-        <Layout>
+        <Layout title="Klinkehegn">
             <div className="action-group">
                 <h4>Kontakt os</h4>
                 <Actions />

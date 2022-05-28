@@ -6,7 +6,7 @@ import styles from '../index.module.scss';
 
 export default function KompositTerrasser() {
     return (
-        <Layout title="Træterrasser">
+        <Layout title="Kompositterrasser">
             <div className={styles.page}>
                 <h2 className={styles.title}>Terrasser i komposit</h2>
                 <Actions />
@@ -18,32 +18,32 @@ export default function KompositTerrasser() {
                         src="/traeterrasser/solid-eg.jpeg"
                         alt="Et billede af et terrassebræt"
                         title="Solid Eg"
-                        path="/produkter/traeterrasser/solid-eg"
+                        path="/produkter/traeterrasser/komposit/solid-eg"
                     />
                     <SmallItem
                         src="/traeterrasser/solid-haerdttrae.jpeg"
                         alt="Et billede af et terrassebræt"
                         title="Solid hårdttræ"
-                        path="/produkter/traeterrasser/solid-haerdttrae"
+                        path="/produkter/traeterrasser/komposit/solid-haerdttrae"
                     />
                     <SmallItem
                         src="/traeterrasser/solid-sort.jpeg"
                         alt="Et billede af et terrassebræt"
                         title="Solid Sort"
-                        path="/produkter/traeterrasser/solid-sort"
+                        path="/produkter/traeterrasser/komposit/solid-sort"
                     />
                     <SmallItem
                         src="/traeterrasser/heimdal-eg-haerdttrae.jpeg"
                         alt="Et billede af et terrassebræt"
                         title="Eg"
-                        path="/produkter/traeterrasser/heimdal-eg-haerdttrae"
+                        path="/produkter/traeterrasser/komposit/heimdal-eg-haerdttrae"
                         className={styles.image}
                     />
                     <SmallItem
                         src="/traeterrasser/heimdal-graa-sort.jpeg"
                         alt="Et billede af et terrassebræt"
                         title="Grå | sort"
-                        path="/produkter/traeterrasser/heimdal-graa-sort"
+                        path="/produkter/traeterrasser/komposit/heimdal-graa-sort"
                         className={styles.image}
                     />
                 </div>

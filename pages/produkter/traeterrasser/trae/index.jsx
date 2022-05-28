@@ -15,7 +15,7 @@ export default function TraeTerrasser() {
                         src="/traeterrasser/trykimpraegneret.jpeg"
                         alt="Et billede af et terrassebræt"
                         title="Trykimprægneret"
-                        path="/produkter/traeterrasser/trykimpraegneret"
+                        path="/produkter/traeterrasser/trae/trykimpraegneret"
                         style={{ width: '200px' }}
                         className={styles.zoomed}
                     />

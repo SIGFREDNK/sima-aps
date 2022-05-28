@@ -28,7 +28,7 @@ const Stoejhegn = () => {
     }, [index]);
 
     return (
-        <Layout>
+        <Layout title="Støjhegn">
             <div className="action-group">
                 <h4>Kontakt os</h4>
                 <Actions />
