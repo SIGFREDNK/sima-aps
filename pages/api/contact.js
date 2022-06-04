@@ -32,7 +32,7 @@ export default async function (req, res) {
             <li>Telefonnummer: ${req.body.phone}</li>
         </ul>
         <h3>Besked</h3>
-        <p>${req.body.message}</p>
+        <p>${req.body.description}</p>
     `;
 
     const mailData = {
