@@ -5,7 +5,6 @@ const PASSWORD = process.env.PASSWORD;
 
 /* eslint-disable */
 export default async function (req, res) {
-    console.log(req.body);
     const transporter = nodemailer.createTransport({
         port: 587,
         host: 'smtp.simply.com',
@@ -13,7 +12,11 @@ export default async function (req, res) {
             user: 'mailbot@simaaps.dk',
             pass: PASSWORD.toString()
         },
-        secure: false
+        secure: false,
+        tls: {
+            ciphers: 'SSLv3'
+        },
+        from: 'mailbot@simaaps.dk'
     });
 
     const text = `Kundens mail: ${req.body.mail}\n\r Kundens telefonummer: ${req.body.phone}\n\r Kundens addresse: ${req.body.address}\n\r Kundens
@@ -34,7 +37,7 @@ export default async function (req, res) {
 
     const mailData = {
         from: 'mailbot@simaaps.dk',
-        to: ['sigfred@simaaps.dk', 'mads@simaaps.dk'],
+        to: 'sigfred00@hotmail.com',
         subject: `Tilbudsanmodning (${req.body.name})`,
         text: text,
         html: html
@@ -44,13 +47,13 @@ export default async function (req, res) {
         if (err)
             res.status(500).json({
                 status: 'failed',
-                message:
-                    'Vi kunne desværre ikke sende beskeden. Kontakt os venligst telefonisk'
+                message: 'Fejl'
             });
         else
             res.status(200).json({
                 status: 'success',
-                message: 'Beskeden er sendt'
+                message: 'Beskeden er sendt',
+                info
             });
     });
 

@@ -25,6 +25,16 @@ body {
     user-select: none;
 }
 
+input,
+textarea {
+    -webkit-touch-callout: initial;
+    -webkit-user-select: initial;
+    -khtml-user-select: initial;
+    -moz-user-select: initial;
+    -ms-user-select: initial;
+    user-select: initial;
+}
+
 a {
     color: inherit;
     text-decoration: none;
