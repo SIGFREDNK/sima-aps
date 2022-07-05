@@ -8,6 +8,42 @@
     background-color: var(--white);
 }
 
+.second,
+.testimonials,
+.reviews,
+.suppliers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+
+    h2 {
+        font-size: 1.75rem;
+    }
+}
+
+.testimonials {
+    padding: 3rem 2.5% 3rem 2.5%;
+    background-color: #f6f6f6;
+
+    h2 {
+        margin-bottom: 3rem;
+    }
+
+    .reviews {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5rem;
+    }
+}
+
+.suppliers {
+    h2 {
+        margin-bottom: 2rem;
+    }
+}
+
 .title {
     margin: 0 0 3vw 0;
     font-size: min(4rem, 3vw);

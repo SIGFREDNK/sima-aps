@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 import styles from './index.module.scss';
 
-export default function Button({ href, value }) {
+export default function Button({ href, value, backgroundColor }) {
     return (
         <Link href={href} passHref>
             <motion.a
@@ -11,6 +11,7 @@ export default function Button({ href, value }) {
                 whileTap={{ scale: 0.9 }}
                 className="button"
                 transition={{ duration: 0.05 }}
+                style={{ backgroundColor }}
             >
                 {value}
             </motion.a>

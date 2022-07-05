@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+import styles from './index.module.scss';
+
 export default function Item({ alt, src, title, path, priority }) {
     return (
         <div className="item">
@@ -21,6 +23,9 @@ export default function Item({ alt, src, title, path, priority }) {
                 }}
             >
                 {title}
+                <Link href={path}>
+                    <a className={styles.button}>Se mere</a>
+                </Link>
             </span>
         </div>
     );
