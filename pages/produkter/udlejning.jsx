@@ -13,10 +13,9 @@ const Erhverv = () => {
         />
     </div> */}
             <div className="page">
-                <h2 className="title">Erhverv</h2>
+                <h2 className="title">Maskinudlejning</h2>
                 <p style={{ marginTop: '1rem' }}>
-                    Ønsker du at indgå et samarbejde med os eller ønsker du at
-                    benytte os som underentreprenør?
+                    Vi udlejer udstyr til private
                 </p>
                 <p style={{ marginTop: '0.5rem' }}>
                     Kontakt os på telefon{' '}
@@ -37,6 +36,23 @@ const Erhverv = () => {
                 >
                     Ring
                 </a>
+                <div>
+                    <h4 className="bold">Hækklipper</h4>
+                    <p>Pris: 200 kr. pr. dag</p>
+                    <p>Depositum: 500 kr.</p>
+                    <p>Brændstof kan tilkøbes</p>
+                    <h4 className="bold">Jordbor</h4>
+                    <p>Pris: 250 kr. pr. dag inkl. 1 bor</p>
+                    <p>Ekstra bor kan tilkøbes til 100 kr. pr. dag</p>
+                    <p>Depositum: 500 kr.</p>
+                    <p>Brændstof kan tilkøbes</p>
+                    <h4 className="bold">Rotationslaser</h4>
+                    <p>Pris: 200 kr. pr. dag</p>
+                    <p>Depositum: 500 kr.</p>
+                    <h4 className="bold">Afrettersæt</h4>
+                    <p>Pris: 150 kr. pr. dag</p>
+                    <p>Depositum: 300 kr.</p>
+                </div>
             </div>
         </Layout>
     );
