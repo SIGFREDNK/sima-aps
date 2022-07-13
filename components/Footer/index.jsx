@@ -3,10 +3,16 @@ import Link from 'next/link';
 
 import styles from './index.module.scss';
 
+import Actions from 'components/Actions';
+
 export default function Footer() {
     return (
         <div className={styles.footer}>
             <Logo />
+            <p className={styles.cvr}>
+                Cvr. 42989681 | Tlf. <a href="tel:30288255">30 28 82 55</a>
+            </p>
+            <Actions />
             <ul className={styles.ul}>
                 <li className={styles.li}>
                     <Link href="/privatlivspolitik">
@@ -19,9 +25,12 @@ export default function Footer() {
                     </Link>
                 </li>
                 <li className={styles.li}>
-                    <Link href="/cookiepolitik">
-                        <a className={styles.anchor}>Cookiepolitik</a>
-                    </Link>
+                    <a
+                        className={styles.anchor}
+                        href="https://policies.google.com/privacy/google-partners"
+                    >
+                        Cookiepolitik
+                    </a>
                 </li>
                 <li className={styles.li}>
                     <Link href="/databeskyttelse">

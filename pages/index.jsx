@@ -1,14 +1,17 @@
 import Layout from 'components/Layout';
 import Button from 'components/Button';
 import Testimonial from 'components/Testimonial';
+import Link from 'next/link';
 
 import { FaStar } from 'react-icons/fa';
 
 import styles from '../styles/Home.module.scss';
 import Banner from 'components/Banner';
 import Supplier from 'components/Supplier';
+import { useState } from 'react';
 
 export default function HomePage() {
+    const [visible, setVisible] = useState(true);
     return (
         <Layout title="Forside">
             <section className={styles.section}>
@@ -97,6 +100,19 @@ export default function HomePage() {
                     href="https://www.kirkedal.dk"
                 />
             </Banner>
+            <div
+                className={styles.cookieBanner}
+                style={{ display: visible ? 'flex' : 'none' }}
+            >
+                <p>
+                    Denne hjemmeside bruger cookies til at lagre information på
+                    din computer. For mere information se vores{' '}
+                    <a href="https://policies.google.com/privacy/google-partners">
+                        cookie politik
+                    </a>
+                </p>
+                <button onClick={() => setVisible(false)}>Accepter</button>
+            </div>
         </Layout>
     );
 }

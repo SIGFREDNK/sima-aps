@@ -27,7 +27,8 @@ export default function Header({ changeState, state }) {
             <Logo />
             <Nav changeState={changeState} state={state} />
             <div className={styles.quick}>
-                <a href="tel:30288255">
+                <a href="tel:30288255" className={styles.call}>
+                    <span>30 28 82 55</span>
                     <FaPhone className={styles.phone} />
                 </a>
                 <FaBars

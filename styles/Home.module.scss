@@ -84,3 +84,37 @@
 .button:hover {
     transform: scale(1.05);
 }
+
+.cookieBanner {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3rem;
+    background-color: darkblue;
+    color: #fff;
+    justify-content: center;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+
+    a {
+        font-size: 12px;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: underline;
+    }
+
+    p {
+        margin-right: 0.7rem;
+    }
+
+    button {
+        background-color: #3fbf81;
+        color: #fff;
+        border: none;
+        padding: 0.5rem 0.3rem;
+        border-radius: 0.2rem;
+    }
+}
