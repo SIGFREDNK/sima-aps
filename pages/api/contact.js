@@ -28,7 +28,7 @@ export default async function (req, res) {
         <ul>
             <li>Navn: ${req.body.name}</li>
             <li>Adresse: ${req.body.address}</li>
-            <li>Mail: ${req.body.email}</li>
+            <li>Mail: ${req.body.mail}</li>
             <li>Telefonnummer: ${req.body.phone}</li>
         </ul>
         <h3>Besked</h3>
